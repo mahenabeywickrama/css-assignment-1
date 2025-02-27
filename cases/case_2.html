@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 2</title>
+    <link rel="stylesheet" href="../assets/lib/normalize.css">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body>header {
+            width: 100vw;
+            height: 50px;
+            position: absolute;
+            background: white;
+            border: 2px solid black;
+        }
+
+        body>header>img {
+            position: absolute;
+            left: 10px;
+            top: 0;
+        }
+
+        body>header>nav {
+            position: absolute;
+            right: 10px;
+            top: 15px;
+        }
+
+        body>header>nav a {
+            margin-right: 10px;
+            color: black;
+        }
+
+        body>main {
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            height: calc(100vh - 50px);
+        }
+
+        body>main>aside {
+            width: 200px;
+            height: 100%;
+            background-color: rebeccapurple;
+            padding: 20px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        body>main>aside ul {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        body>main>aside ul li {
+            margin-bottom: 15px;
+        }
+
+        body>main>aside ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        body>main>section {
+            margin-left: 200px;
+            padding: 5px;
+        }
+
+        body>main>section>div:first-child {
+            margin-bottom: 20px;
+        }
+
+        body>main>section>div:first-child img {
+            width: 350px;
+            height: auto;
+            border: 2px solid black;
+        }
+
+        body>main>section>div:last-child {
+            width: calc(100vw - 250px);
+            font-size: 14px;
+            line-height: 1;
+            color: black;
+        }
+
+        body>main>section>div:last-child p {
+            margin-bottom: 15px;
+        }
+
+        body>footer {
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            background: gray;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png">
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <a href="">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section>
+            <div>
+                <img src="../assets/images/monkey-swinging-loader.gif">
+                <img src="../assets/images/monkey-swinging-loader.gif">
+                <img src="../assets/images/monkey-swinging-loader.gif">
+            </div>
+
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius esse nam veniam voluptatum? Beatae blanditiis consequuntur deserunt dicta dolores, excepturi fugiat harum illo labore, minus neque numquam similique voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius esse nam veniam voluptatum? Beatae blanditiis consequuntur deserunt dicta dolores, excepturi fugiat harum illo labore, minus neque numquam similique voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius esse nam veniam voluptatum? Beatae blanditiis consequuntur deserunt dicta dolores, excepturi fugiat harum illo labore, minus neque numquam similique voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius esse nam veniam voluptatum? Beatae blanditiis consequuntur deserunt dicta dolores, excepturi fugiat harum illo labore, minus neque numquam similique voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius esse nam veniam voluptatum? Beatae blanditiis consequuntur deserunt dicta dolores, excepturi fugiat harum illo labore, minus neque numquam similique voluptate?</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed By IJSE</p>
+    </footer>
+</body>
+</html>
