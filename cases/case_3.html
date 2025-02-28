@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 3</title>
+    <link rel="stylesheet" href="../assets/lib/normalize.css">
+
+    <style>
+
+        body>div:first-child {
+            width: 200px;
+            aspect-ratio: 1/1;
+            background: transparent;
+            border: 10px solid brown;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            right: 1px;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        body>div:first-child>div {
+            width: 180px;
+            aspect-ratio: 1/1;
+            background: transparent;
+            border: 10px solid red;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            right: 1px;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        section {
+            width: calc(100vw - 12px);
+            height: 100vh;
+            position: relative;
+        }
+
+        body>section>div {
+            width: 180px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(2)>div {
+            background: rebeccapurple;
+        }
+
+        body>section:nth-child(3)>div {
+            background: cornflowerblue;
+        }
+
+        body>section:nth-child(4)>div {
+            background: indianred;
+        }
+
+        body>section>div>p {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: 0;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            line-height: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <div></div>
+    </div>
+
+    <section>
+        <div>
+            <p>Hello</p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p>Welcome To</p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p>IJSE</p>
+        </div>
+    </section>
+</body>
+</html>
